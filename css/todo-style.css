@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'PoppinsRegular';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Poppins'), local('PoppinsRegular'), url(./PoppinsRegular.css) format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+  padding: 20px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-weight: 900;
+}
+
+
+body {
+  background: rgb(1, 4, 32);
+}
+
+.score-board {
+  position: relative;
+  border: 3px solid white;
+  width: 300px;
+  margin: 20px auto;
+  font-size: 30px;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.badge {
+  background: crimson;
+  font-size: 14px;
+  padding: 30px 30px;
+}
+
+#user-lable {
+  position: absolute;
+  border-radius: 60px;
+  top: 35px;
+  left: -45px;
+}
+
+#bot-lable {
+  position: absolute;
+  border-radius: 60px;
+  top: 35px;
+  right: -45px;
+}
+
+.results {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.choices, .choice-wrapper {
+  text-align: center;
+  margin: 50px;
+}
+
+/* 
+.choice {
+  display: inline-block;
+  border: 5px solid white;
+  border-radius: 90px;
+  padding: 10px;
+  margin: 15px;
+  transition: all 0.3s ease;
+} */
+#rock {
+  display: inline-block;
+  border: 5px solid white;
+  border-radius: 90px;
+  padding: 10px;
+  margin: 15px;
+  transition: all 0.3s ease;
+}
+
+#paper {
+  display: inline-block;
+  border: 5px solid white;
+  border-radius: 90px;
+  padding: 10px;
+  margin: 15px;
+  transition: all 0.3s ease;
+}
+
+#scissors {
+  display: inline-block;
+  border: 5px solid white;
+  border-radius: 90px;
+  padding: 10px;
+  margin: 15px;
+  transition: all 0.3s ease;
+}
+
+#rock:hover {
+  background: rgb(3, 3, 3);
+  cursor: pointer;
+}
+
+#paper:hover {
+  background: rgb(3, 3, 3);
+  cursor: pointer;
+}
+
+#scissors:hover {
+  background: rgb(3, 3, 3);
+  cursor: pointer;
+}
+
+
+
+.action-line {
+  color: white;
+  font-size: 30px;
+  padding: 40px;
+}
+
+span {
+  font-size: 40px;
+}
+
+.green-glow {
+  border: 4px solid #4dcc7d !important;
+  box-shadow: 0 0 10px #0af019 !important;
+}
+
+.red-glow {
+  border: 4px solid #fc121b !important;
+  box-shadow: 0 0 10px #d01155 !important;
+}
+
+.gray-glow {
+  border: 4px solid #464647 !important;
+  box-shadow: 0 0 10px #29297b !important;
+}
